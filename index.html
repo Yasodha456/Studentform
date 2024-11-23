@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Student Form</title>
+</head>
+
+<body>
+    <div style="justify-items: center;">
+        <form id="studentdetails">
+            <h1>Student Form</h1>
+            <table border="1" id="entry">
+                <tbody>
+                    <tr>
+                        <td style="font-weight:bold;">Name</td>
+                        <td><input id="name" type="text" placeholder="Enter your Name"> </td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight:bold;">Age</td>
+                        <td><input id="age" type="number" placeholder="Enter your Age"> </td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight:bold;">Gender</td>
+                        <td><input id="male" type="radio" name="gender"> Male<input type="radio" name="gender"
+                                id="female">Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight:bold;">Course</td>
+                        <td><label for="course"></label>
+                            <select id="course" name="course">
+                                <option>Choose a course</option>
+                                <option>HTML</option>
+                                <option>JavaScript</option>
+                                <option>Python</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight:bold;">E-mail</td>
+                        <td><input id="email" type="email" placeholder="Enter your E-mail"> </td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </form>
+        <br>
+        <button class="btn" style="cursor:pointer">Submit</button>
+        <br>
+        <br>
+        <div class="result">
+            <table id="display" border="1">
+
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                    <th>Course</th>
+                    <th>Email</th>
+                    <th>Action</th>
+                </tr>
+                
+
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+.btn{
+    border-radius: 5px;
+    width:235px;
+    background-color:chocolate;
+    border:1px solid chocolate;
+    color:white;
+    height:20px;
+}
+.student-form{
+    padding:20px;
+    text-align: center;
+   
+
+}
+.btn:hover{
+    background-color: cadetblue;
+    border: cadetblue;
+}
+h1{
+    padding-left: 25px;
+}
